@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>路易莎咖啡 LOUISA COFFEE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" /> -->
+    <link href="https://www.louisacoffee.co/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://www.louisacoffee.co/assets/css/themify-icons.min.css" rel="stylesheet" type="text/css"
+        media="all" />
+    <link href="https://www.louisacoffee.co/assets/css/flexslider.min.css" rel="stylesheet" type="text/css"
+        media="all" />
+    <link href="https://www.louisacoffee.co/assets/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://www.louisacoffee.co/assets/css/ytplayer.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://www.louisacoffee.co/assets/css/theme.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://www.louisacoffee.co/assets/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link
+        href='https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600'
+        rel='stylesheet' type='text/css'>
+    <!-- favicon links -->
+    <link rel="shortcut icon" type="image/ico" href="https://www.louisacoffee.co/img/logo/favicon.ico" />
+    <link rel="icon" type="image/ico" href="https://www.louisacoffee.co/img/logo/favicon.ico" />
+    <!-- Facebook property -->
+    <!-- End Facebook property  -->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PXZ2H6F');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="scroll-assist">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXZ2H6F" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- fb root -->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.7&appId=1474674659418274";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <!--end  fb root -->
+    <div class="nav-container"> <a id="top"></a>
+        <nav>
+            <div class="nav-bar">
+                <div class="module left"> <a href="https://www.louisacoffee.co/index"> <img class="logo logo-light"
+                            alt="Foundry" src="https://www.louisacoffee.co/assets/img/logo-light.png" /> <img
+                            class="logo logo-dark" alt="Foundry"
+                            src="https://www.louisacoffee.co/assets/img/logo-dark.png" /> </a> </div>
+                <div class="module widget-handle mobile-toggle right visible-sm visible-xs"> <i class="ti-menu"></i>
+                </div>
+                <div class="module-group right">
+                    <div class="module left">
+                        <ul class="menu">
+                            <li> <a href="https://www.louisacoffee.co/index"> 首頁 </a> </li>
+                            <li> <a href="https://www.louisacoffee.co/visit"> 門市查詢 </a></li>
+                            <li> <a href="https://www.louisacoffee.co/news"> 最新消息 </a> </li>
+
+                            <li class="has-dropdown"> <a href="#"> 投資人專區 </a>
+                                <ul>
+                                    <li> <a href="https://www.louisacoffee.co/shareHolderOrgChart"> 組織圖 </a> </li>
+                                    <li> <a href="https://www.louisacoffee.co/shareHolder/2"> 公司治理 </a> </li>
+                                    <li class="has-dropdown"> <a href="#"> 財務資訊 </a>
+                                        <ul>
+                                            <li> <a href="https://www.louisacoffee.co/shareHolder/3?CatlogType=Msg">
+                                                    月營收資訊 </a> </li>
+                                            <li> <a href="https://www.louisacoffee.co/shareHolder/4?CatlogType=Msg">
+                                                    財務報告 </a> </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-dropdown"> <a href="#"> 股東資訊 </a>
+                                        <ul>
+                                            <li> <a href="https://www.louisacoffee.co/shareHolder/5"> 股東會 </a> </li>
+                                            <li> <a href="https://www.louisacoffee.co/shareHolder/6"> 法人說明會 </a> </li>
+                                            <li> <a href="https://www.louisacoffee.co/shareHolder/7?CatlogType=Msg">
+                                                    重大訊息 </a> </li>
+                                            <li> <a href="https://www.louisacoffee.co/shareHolder/8?CatlogType=Msg">
+                                                    股利資訊 </a> </li>
+                                            <li> <a href="https://www.louisacoffee.co/shareHolderContact"> 聯絡窗口 </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <li class="has-dropdown"> <a href="https://www.louisacoffee.co/products"> 商品介紹 </a>
+                                <ul>
+                                    <li class="has-dropdown"> <a href="#"> 咖啡豆專區 </a>
+                                        <ul>
+                                            <li> <a href="https://www.louisacoffee.co/club_show1"> 私房咖啡 </a> </li>
+                                            <li> <a href="https://www.louisacoffee.co/club_show2"> 精品咖啡 </a> </li>
+                                            <li> <a href="https://www.louisacoffee.co/club_show3"> 量販精品咖啡豆 </a> </li>
+
+                                        </ul>
+
+                                        <!-- <ul>
+                    <li> <a href="https://www.louisacoffee.co/club_show"> 綜合產區 </a> </li>
+                    <li> <a href="#"> 單品 </a> </li>
+                    <li> <a href="#"> 尋豆師系列 </a> </li>
+                    <li> <a href="#"> 公平交易 </a> </li>
+                    <li> <a href="#"> 沖煮器具 </a> </li>
+                  </ul> -->
+                                    </li>
+                                    <li class="has-dropdown"> <a href="#"> 商品專區 </a>
+                                        <ul>
+                                            <li> <a href="https://www.louisacoffee.co/products_list/18"> 濾掛咖啡系列 </a>
+                                            </li>
+                                            <li> <a href="https://www.louisacoffee.co/products_list/10"> 精品咖啡 </a> </li>
+                                            <li> <a href="https://www.louisacoffee.co/products_list/8"> 經典義式咖啡 </a>
+                                            </li>
+                                            <li> <a href="https://www.louisacoffee.co/products_list/11"> 嚴選在地小農牧場系列 </a>
+                                            </li>
+                                            <li> <a href="https://www.louisacoffee.co/products_list/12"> 茶與其他飲品 </a>
+                                            </li>
+                                            <li> <a href="https://www.louisacoffee.co/products_list/17"> 享瘦低醣新食感 </a>
+                                            </li>
+                                            <li> <a href="https://www.louisacoffee.co/products_list/13"> 輕食 </a> </li>
+                                            <li> <a href="https://www.louisacoffee.co/products_list/14"> 軟歐藏心貝果 </a>
+                                            </li>
+                                            <li> <a href="https://www.louisacoffee.co/products_list/6"> 糕點 </a> </li>
+                                            <li> <a href="https://www.louisacoffee.co/products_list/15"> 會議型糕點 </a>
+                                            </li>
+                                            <li> <a href="https://www.louisacoffee.co/products_list/20"> La Merenda食光點心
+                                                </a> </li>
+                                            <li> <a href="https://www.louisacoffee.co/products_list/19"> 商品 </a> </li>
+
+                                            <li> <a href="https://www.louisacoffee.co/allergenImg"> 過敏原資訊 </a> </li>
+                                            <li> <a href="https://www.louisacoffee.co/allergenImg?CatlogID=2"> 營養標示資訊
+                                                </a> </li>
+
+                                        </ul>
+                                    </li>
+                                    <li> <a href="https://forms.gle/MgQA7iiGGioFuTbF7"> 購買商品禮券</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="has-dropdown"> <a href="https://www.louisacoffee.co/blogs"> 咖啡世界 </a>
+                                <ul>
+                                    <li> <a href="https://www.louisacoffee.co/blog1">咖啡職人</a> </li>
+                                    <li> <a href="https://www.louisacoffee.co/blog2">咖啡生活</a> </li>
+                                </ul>
+                            </li>
+                            <li> <a href="https://www.louisacoffee.co/about"> 關於我們 </a> </li>
+                            <li class="has-dropdown"> <a href="#"> 聯絡我們 </a>
+                                <ul>
+                                    <li> <a href="https://www.louisacoffee.co/contact-info">聯絡我們</a> </li>
+                                    <li> <a href="https://www.louisacoffee.co/contact-wanted">人才招募</a> </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--end of menu module-->
+                    <div class="module widget-handle search-widget-handle left">
+                        <div class="search"> <i class="ti-location-pin"></i> <span class="title">Search Site</span>
+                        </div>
+                        <div class="function">
+                            <form class="search-form" action="https://www.louisacoffee.co/visit">
+                                <input name="filter_name" type="text" placeholder="門市查詢:輸入門市名稱" />
+                            </form>
+                        </div>
+                    </div>
+                    <div class="module widget-handle language left">
+                        <ul class="menu">
+                            <li class="has-dropdown">
+                                <a href="#">Eng</a>
+                                <ul>
+                                    <li>
+                                        <a href="//en.louisacoffee.co">English</a>
+                                    </li>
+                                    <li>
+                                        <a href="//www.louisacoffee.co/">繁體中文</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--end of module group-->
+    </div>
+    </nav>
+    </div>
+
+    <div class="main-container">
+        <section class="page-title page-title-4 bg-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="uppercase mb0 ChText">咖啡生活</h3>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <ol class="breadcrumb breadcrumb-2">
+                            <li> <a href="https://www.louisacoffee.co">Home</a> </li>
+                            <li class="active">咖啡世界</li>
+                        </ol>
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+
+
+
+
+        <section class="bg-secondary">
+            <div class="container">
+                <div class="col-md-9">
+                    <div class="row masonry-loader">
+                        <div class="col-sm-12 text-center">
+                            <div class="spinner"></div>
+                        </div>
+                    </div>
+                    <div class="row masonry masonryFlyIn mb40">
+                        <div class="col-sm-6 post-snippet masonry-item">
+                            <a href="https://www.louisacoffee.co/blog2show/29"> <img alt="Post Image"
+                                    src="/upload/blog/20220803_051827-image(450x_).jpg" /> </a>
+                            <div class="inner">
+                                <a href="https://www.louisacoffee.co/blog2show/29">
+                                    <h5 class="mb0">《咖啡麻布隨行杯袋》升級再版新上市</h5>
+                                    <span class="inline-block mb16">August 03, 2022</span>
+                                </a>
+                                <hr>
+                                <ul class="post-meta">
+                                    <li> <i class="ti-user"></i> <a href="#"></a> </li>
+                                    <li> <i class="ti-tag"></i> <a href="https://www.louisacoffee.co/blog2"></a> </li>
+                                </ul>
+                                <!-- <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. </p> -->
+                                <p>繼2018年循環經濟和公益團體蘆葦女力合作為咖啡麻布袋加值，為社區婦女加油，用&ldquo;一杯咖啡袋&rdquo;創造就業機會之後，2022年升級再版《咖啡麻布隨行杯袋》，結合文創設...
+                                </p>
+                                <a class="btn btn-sm" href="https://www.louisacoffee.co/blog2show/29">Read More</a>
+                                <ul class="tags pull-right">
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://plus.google.com/share?url=https://www.louisacoffee.co/blog2show/29"
+                                            target="_blank">
+                                            <i class="ti-google"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://www.facebook.com/sharer/sharer.php?u=https://www.louisacoffee.co/blog2show/29"
+                                            target="_blank"> <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-instagram"></i> </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-facebook"></i> </a>
+                            </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of snippet-->
+                        <div class="col-sm-6 post-snippet masonry-item">
+                            <a href="https://www.louisacoffee.co/blog2show/39"> <img alt="Post Image"
+                                    src="/upload/blog/20210625_073231-image(450x_).jpg" /> </a>
+                            <div class="inner">
+                                <a href="https://www.louisacoffee.co/blog2show/39">
+                                    <h5 class="mb0">百杯咖啡挺醫護 齊心抗疫送暖心</h5>
+                                    <span class="inline-block mb16">June 23, 2021</span>
+                                </a>
+                                <hr>
+                                <ul class="post-meta">
+                                    <li> <i class="ti-user"></i> <a href="#"></a> </li>
+                                    <li> <i class="ti-tag"></i> <a href="https://www.louisacoffee.co/blog2"></a> </li>
+                                </ul>
+                                <!-- <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. </p> -->
+                                <p>2020年一場肆虐全球的新冠肺炎疫情，改變了人類的日常生活；2021年疫情升溫，台灣陷入三級警戒，百業重創餐飲業更是首當其衝，咖啡館人聲鼎沸不再，路易莎力拼將...
+                                </p>
+                                <a class="btn btn-sm" href="https://www.louisacoffee.co/blog2show/39">Read More</a>
+                                <ul class="tags pull-right">
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://plus.google.com/share?url=https://www.louisacoffee.co/blog2show/39"
+                                            target="_blank">
+                                            <i class="ti-google"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://www.facebook.com/sharer/sharer.php?u=https://www.louisacoffee.co/blog2show/39"
+                                            target="_blank"> <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-instagram"></i> </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-facebook"></i> </a>
+                            </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of snippet-->
+                        <div class="col-sm-6 post-snippet masonry-item">
+                            <a href="https://www.louisacoffee.co/blog2show/38"> <img alt="Post Image"
+                                    src="/upload/blog/20210511_020946-image(450x_).jpg" /> </a>
+                            <div class="inner">
+                                <a href="https://www.louisacoffee.co/blog2show/38">
+                                    <h5 class="mb0">承襲老台北歷史地標 新舊融合點亮萬華老街區_萬華東園門市</h5>
+                                    <span class="inline-block mb16">May 10, 2021</span>
+                                </a>
+                                <hr>
+                                <ul class="post-meta">
+                                    <li> <i class="ti-user"></i> <a href="#"></a> </li>
+                                    <li> <i class="ti-tag"></i> <a href="https://www.louisacoffee.co/blog2"></a> </li>
+                                </ul>
+                                <!-- <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. </p> -->
+                                <p>位於萬華東園街與德昌街的交會處，舊稱「店仔口」開業近60年的英吉利鐘錶眼鏡行熄燈撤出商圈，仍然心繫地方商圈發展，希望這承襲無數老台北人記憶中的歷史地標，...</p>
+                                <a class="btn btn-sm" href="https://www.louisacoffee.co/blog2show/38">Read More</a>
+                                <ul class="tags pull-right">
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://plus.google.com/share?url=https://www.louisacoffee.co/blog2show/38"
+                                            target="_blank">
+                                            <i class="ti-google"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://www.facebook.com/sharer/sharer.php?u=https://www.louisacoffee.co/blog2show/38"
+                                            target="_blank"> <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-instagram"></i> </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-facebook"></i> </a>
+                            </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of snippet-->
+                        <div class="col-sm-6 post-snippet masonry-item">
+                            <a href="https://www.louisacoffee.co/blog2show/37"> <img alt="Post Image"
+                                    src="/upload/blog/20191212_092209-image(450x_).jpg" /> </a>
+                            <div class="inner">
+                                <a href="https://www.louisacoffee.co/blog2show/37">
+                                    <h5 class="mb0">台日聯手創造最時尚的咖啡閱讀生活_南港蔦屋門市</h5>
+                                    <span class="inline-block mb16">December 06, 2019</span>
+                                </a>
+                                <hr>
+                                <ul class="post-meta">
+                                    <li> <i class="ti-user"></i> <a href="#"></a> </li>
+                                    <li> <i class="ti-tag"></i> <a href="https://www.louisacoffee.co/blog2"></a> </li>
+                                </ul>
+                                <!-- <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. </p> -->
+                                <p>
+
+
+
+
+
+
+
+
+
+
+
+
+                                    一本書 一杯咖啡
+
+                                    在蔦屋書店 也在路易莎咖啡
+
+                                    &nbsp;
+
+                                    路易莎以『創新百變的店面空間＋平價精品匯聚的強大集客力』獲得潤泰集...</p>
+                                <a class="btn btn-sm" href="https://www.louisacoffee.co/blog2show/37">Read More</a>
+                                <ul class="tags pull-right">
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://plus.google.com/share?url=https://www.louisacoffee.co/blog2show/37"
+                                            target="_blank">
+                                            <i class="ti-google"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://www.facebook.com/sharer/sharer.php?u=https://www.louisacoffee.co/blog2show/37"
+                                            target="_blank"> <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-instagram"></i> </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-facebook"></i> </a>
+                            </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of snippet-->
+                        <div class="col-sm-6 post-snippet masonry-item">
+                            <a href="https://www.louisacoffee.co/blog2show/36"> <img alt="Post Image"
+                                    src="/upload/blog/20190305_021107-image(450x_).JPG" /> </a>
+                            <div class="inner">
+                                <a href="https://www.louisacoffee.co/blog2show/36">
+                                    <h5 class="mb0">湖畔邊的行動咖啡夢_南投車埕</h5>
+                                    <span class="inline-block mb16">March 04, 2019</span>
+                                </a>
+                                <hr>
+                                <ul class="post-meta">
+                                    <li> <i class="ti-user"></i> <a href="#"></a> </li>
+                                    <li> <i class="ti-tag"></i> <a href="https://www.louisacoffee.co/blog2"></a> </li>
+                                </ul>
+                                <!-- <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. </p> -->
+                                <p>移動的路易莎乘載著第三波精品咖啡夢，停泊於南投車埕湖畔，陽光撒下波光粼粼，綠樹環繞美不勝收。當蒸汽孔開始冒出白煙、萃取濃縮緩緩流出、咖啡香氣瀰漫，此刻...</p>
+                                <a class="btn btn-sm" href="https://www.louisacoffee.co/blog2show/36">Read More</a>
+                                <ul class="tags pull-right">
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://plus.google.com/share?url=https://www.louisacoffee.co/blog2show/36"
+                                            target="_blank">
+                                            <i class="ti-google"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://www.facebook.com/sharer/sharer.php?u=https://www.louisacoffee.co/blog2show/36"
+                                            target="_blank"> <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-instagram"></i> </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-facebook"></i> </a>
+                            </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of snippet-->
+                        <div class="col-sm-6 post-snippet masonry-item">
+                            <a href="https://www.louisacoffee.co/blog2show/35"> <img alt="Post Image"
+                                    src="/upload/blog/20191212_091559-image(450x_).jpg" /> </a>
+                            <div class="inner">
+                                <a href="https://www.louisacoffee.co/blog2show/35">
+                                    <h5 class="mb0">在路易莎尋找您的專屬風味_環球A8門市</h5>
+                                    <span class="inline-block mb16">February 01, 2019</span>
+                                </a>
+                                <hr>
+                                <ul class="post-meta">
+                                    <li> <i class="ti-user"></i> <a href="#"></a> </li>
+                                    <li> <i class="ti-tag"></i> <a href="https://www.louisacoffee.co/blog2"></a> </li>
+                                </ul>
+                                <!-- <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. </p> -->
+                                <p>第三波精品咖啡強調每支咖啡豆的獨特性，用風味闡述不同產地風土、氣候、莊園、品種、及處理法等，咖啡愛好者們更在千萬種風味中不斷探索，找尋最適合自己的味道...</p>
+                                <a class="btn btn-sm" href="https://www.louisacoffee.co/blog2show/35">Read More</a>
+                                <ul class="tags pull-right">
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://plus.google.com/share?url=https://www.louisacoffee.co/blog2show/35"
+                                            target="_blank">
+                                            <i class="ti-google"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://www.facebook.com/sharer/sharer.php?u=https://www.louisacoffee.co/blog2show/35"
+                                            target="_blank"> <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-instagram"></i> </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-facebook"></i> </a>
+                            </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of snippet-->
+                        <div class="col-sm-6 post-snippet masonry-item">
+                            <a href="https://www.louisacoffee.co/blog2show/34"> <img alt="Post Image"
+                                    src="/upload/blog/20181106_082551-image(450x_).jpg" /> </a>
+                            <div class="inner">
+                                <a href="https://www.louisacoffee.co/blog2show/34">
+                                    <h5 class="mb0">咖啡工藝圖書館_輔大精品烘豆廠門市</h5>
+                                    <span class="inline-block mb16">October 19, 2018</span>
+                                </a>
+                                <hr>
+                                <ul class="post-meta">
+                                    <li> <i class="ti-user"></i> <a href="#"></a> </li>
+                                    <li> <i class="ti-tag"></i> <a href="https://www.louisacoffee.co/blog2"></a> </li>
+                                </ul>
+                                <!-- <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. </p> -->
+                                <p>路易莎輔大精品烘豆廠門市重新改裝，將咖啡館化身為『隱身圖書館內的烘豆廠』。50kg 頂級烘豆機坐鎮咖啡館內，靜默地宣示著路易莎對烘豆的堅持，如同牆上『對烘...</p>
+                                <a class="btn btn-sm" href="https://www.louisacoffee.co/blog2show/34">Read More</a>
+                                <ul class="tags pull-right">
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://plus.google.com/share?url=https://www.louisacoffee.co/blog2show/34"
+                                            target="_blank">
+                                            <i class="ti-google"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://www.facebook.com/sharer/sharer.php?u=https://www.louisacoffee.co/blog2show/34"
+                                            target="_blank"> <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-instagram"></i> </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-facebook"></i> </a>
+                            </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of snippet-->
+                        <div class="col-sm-6 post-snippet masonry-item">
+                            <a href="https://www.louisacoffee.co/blog2show/30"> <img alt="Post Image"
+                                    src="/upload/blog/20180813_083030-image(450x_).jpg" /> </a>
+                            <div class="inner">
+                                <a href="https://www.louisacoffee.co/blog2show/30">
+                                    <h5 class="mb0">帶孩子悠閒喝咖啡不是夢！_親子友善 南平門市</h5>
+                                    <span class="inline-block mb16">August 13, 2018</span>
+                                </a>
+                                <hr>
+                                <ul class="post-meta">
+                                    <li> <i class="ti-user"></i> <a href="#"></a> </li>
+                                    <li> <i class="ti-tag"></i> <a href="https://www.louisacoffee.co/blog2"></a> </li>
+                                </ul>
+                                <!-- <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. </p> -->
+                                <p>有孩子後有多久沒上咖啡館好好喝杯咖啡了？家長們的心聲路易莎聽到了！首間主打親子友善的門市於桃園南平店開幕，全店80坪其中25坪規劃為親子遊戲區，內有咖啡座...</p>
+                                <a class="btn btn-sm" href="https://www.louisacoffee.co/blog2show/30">Read More</a>
+                                <ul class="tags pull-right">
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://plus.google.com/share?url=https://www.louisacoffee.co/blog2show/30"
+                                            target="_blank">
+                                            <i class="ti-google"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://www.facebook.com/sharer/sharer.php?u=https://www.louisacoffee.co/blog2show/30"
+                                            target="_blank"> <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-instagram"></i> </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-facebook"></i> </a>
+                            </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of snippet-->
+                        <div class="col-sm-6 post-snippet masonry-item">
+                            <a href="https://www.louisacoffee.co/blog2show/31"> <img alt="Post Image"
+                                    src="/upload/blog/20180813_090252-image(450x_).jpg" /> </a>
+                            <div class="inner">
+                                <a href="https://www.louisacoffee.co/blog2show/31">
+                                    <h5 class="mb0">一間能開著環島的路易莎門市！第三波精品咖啡行動門市(車)</h5>
+                                    <span class="inline-block mb16">July 20, 2018</span>
+                                </a>
+                                <hr>
+                                <ul class="post-meta">
+                                    <li> <i class="ti-user"></i> <a href="#"></a> </li>
+                                    <li> <i class="ti-tag"></i> <a href="https://www.louisacoffee.co/blog2"></a> </li>
+                                </ul>
+                                <!-- <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. </p> -->
+                                <p>路易莎咖啡耗時一年斥資800萬打造全台第一的第三波精品咖啡行動門市，7/14在大佳河濱公園台北河岸同樂會正式亮相，現場台北市長柯文哲和熊讚也蒞臨現場同歡！義...</p>
+                                <a class="btn btn-sm" href="https://www.louisacoffee.co/blog2show/31">Read More</a>
+                                <ul class="tags pull-right">
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://plus.google.com/share?url=https://www.louisacoffee.co/blog2show/31"
+                                            target="_blank">
+                                            <i class="ti-google"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://www.facebook.com/sharer/sharer.php?u=https://www.louisacoffee.co/blog2show/31"
+                                            target="_blank"> <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-instagram"></i> </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-facebook"></i> </a>
+                            </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of snippet-->
+                        <div class="col-sm-6 post-snippet masonry-item">
+                            <a href="https://www.louisacoffee.co/blog2show/28"> <img alt="Post Image"
+                                    src="/upload/blog/20180713_055431-image(450x_).JPG" /> </a>
+                            <div class="inner">
+                                <a href="https://www.louisacoffee.co/blog2show/28">
+                                    <h5 class="mb0">這裡是咖啡館也是圖書館&mdash;民權西門市</h5>
+                                    <span class="inline-block mb16">July 13, 2018</span>
+                                </a>
+                                <hr>
+                                <ul class="post-meta">
+                                    <li> <i class="ti-user"></i> <a href="#"></a> </li>
+                                    <li> <i class="ti-tag"></i> <a href="https://www.louisacoffee.co/blog2"></a> </li>
+                                </ul>
+                                <!-- <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo. </p> -->
+                                <p>人來人往的台北中山區民權西路上，推開路易莎大門躲進一處寧靜，闔上門瞬間隔絕外頭吵雜的人車聲，店內深沉穩重的復古木樑和黑色鋼鐵件，咖啡飄香而來，歡迎來到...</p>
+                                <a class="btn btn-sm" href="https://www.louisacoffee.co/blog2show/28">Read More</a>
+                                <ul class="tags pull-right">
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://plus.google.com/share?url=https://www.louisacoffee.co/blog2show/28"
+                                            target="_blank">
+                                            <i class="ti-google"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="btn btn-sm btn-icon"
+                                            href="https://www.facebook.com/sharer/sharer.php?u=https://www.louisacoffee.co/blog2show/28"
+                                            target="_blank"> <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-instagram"></i> </a>
+                            </li>
+                            <li>
+                                <a class="btn btn-sm btn-icon" href="#"> <i class="ti-facebook"></i> </a>
+                            </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!--end of snippet-->
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="text-center">
+                            <ul class="pagination">
+                                <li class=" disabled">
+                                    <a href="https://www.louisacoffee.co/blog2?page=1" aria-label="Previous"> <span
+                                            aria-hidden="true">«</span> </a>
+                                </li>
+                                <li class=" active">
+                                    <a href="https://www.louisacoffee.co/blog2?page=1">1</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://www.louisacoffee.co/blog2?page=2">2</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://www.louisacoffee.co/blog2?page=3">3</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://www.louisacoffee.co/blog2?page=4">4</a>
+                                </li>
+
+                                <li class="">
+                                    <a href="https://www.louisacoffee.co/blog2?page=2" aria-label="Next"> <span
+                                            aria-hidden="true">»</span> </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of 9 col-->
+                <div class="col-md-3 hidden-sm">
+                    <div class="widget">
+                        <h6 class="title">最新文章</h6>
+                        <hr>
+                        <ul class="link-list recent-posts">
+                            <li> <a href="https://www.louisacoffee.co/blog2show/29">《咖啡麻布隨行杯袋》升級再版新上市</a> <span
+                                    class="date">August 03, 2022</span> </li>
+                            <li> <a href="https://www.louisacoffee.co/blog2show/39">百杯咖啡挺醫護 齊心抗疫送暖心</a> <span
+                                    class="date">June 23, 2021</span> </li>
+                            <li> <a href="https://www.louisacoffee.co/blog2show/38">承襲老台北歷史地標 新舊融合點亮萬華老街區_萬華東園門市</a>
+                                <span class="date">May 10, 2021</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--end of widget-->
+                    <div class="widget">
+                        <h6 class="title">文章分類</h6>
+                        <hr>
+                        <ul class="link-list">
+                            <li> <a
+                                    href="https://www.louisacoffee.co/blog2/%E5%92%96%E5%95%A1%E3%80%81%E6%97%85%E8%A1%8C%E3%80%81%E7%BE%8E%E5%A5%BD%E6%97%A5%E5%B8%B8">咖啡、旅行、美好日常</a>
+                            </li>
+                            <li> <a
+                                    href="https://www.louisacoffee.co/blog2/%E7%94%A8%E5%92%96%E5%95%A1%E4%BC%B4%E5%A5%8F%E7%9A%84%E5%91%B3%E8%A6%BA%E4%BA%AB%E5%AE%B4">用咖啡伴奏的味覺享宴</a>
+                            </li>
+                            <li> <a
+                                    href="https://www.louisacoffee.co/blog2/%E5%B1%85%E5%AE%B6%E5%92%96%E5%95%A1%E6%B2%96%E7%85%AE">居家咖啡沖煮</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--end of widget-->
+
+                </div>
+                <!--end of sidebar-->
+            </div>
+            <!--end of container-->
+        </section>
+
+    </div>
+
+
+
+
+
+    <footer class="footer-1 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="logo2-center"><img alt="Logo" class="logo2" src="/assets/img/logo-girl-image().png " />
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="widget">
+                        <h6 class="title">熱門訊息</h6>
+                        <hr>
+                        <ul class="link-list recent-posts">
+                            <li> <a href="https://www.louisacoffee.co/news#282">【5月新登場】黑卡專屬 獨享好禮</a> <span
+                                    class="date">May <span class="number">1, 2023</span> </span> </li>
+                            <li> <a href="https://www.louisacoffee.co/news#277">4/23 ~ 5/14 母親節蛋糕開跑囉！</a> <span
+                                    class="date">Apr <span class="number">22, 2023</span> </span> </li>
+                            <li> <a href="https://www.louisacoffee.co/news#276">【全新登場】享瘦減醣新食感</a> <span class="date">Apr
+                                    <span class="number">14, 2023</span> </span> </li>
+                        </ul>
+                    </div>
+                    <!--end of widget-->
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="widget">
+                        <h6 class="title">咖啡世界</h6>
+                        <hr>
+                        <ul class="link-list recent-posts">
+                            <li> <a href="https://www.louisacoffee.co/blog1show/33">「台灣⇄京都」橫跨千里 尋茶之旅</a> <span
+                                    class="date">Apr <span class="number">1, 2020</span> </span> </li>
+                            <li> <a href="https://www.louisacoffee.co/blog1show/34">京都宇治抹茶甜點職人來台技術交流</a> <span
+                                    class="date">Apr <span class="number">1, 2020</span> </span> </li>
+                            <li> <a href="https://www.louisacoffee.co/blog1show/35">京都宇治茶職人來台技術交流</a> <span
+                                    class="date">Apr <span class="number">1, 2020</span> </span> </li>
+                        </ul>
+                    </div>
+                    <!--end of widget-->
+                </div>
+            </div>
+            <!--end of row-->
+            <div class="row">
+                <div class="col-sm-6"> <span class="sub">&copy; Copyright 2023 - LOUISA COFFEE</span>　│　<a
+                        href="http://flow1.louisacoffee.com.tw/louisa/Login.aspx?ReturnUrl=%2flouisa%2f"
+                        target="_blank">夥伴登入</a></div>
+                <div class="col-sm-6 text-right">
+                    <ul class="list-inline social-list">
+                        <li> <a href="https://www.facebook.com/louisacoffeeofficial"> <i class="ti-facebook"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--end of container-->
+        <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
+    </footer>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script src="https://www.louisacoffee.co/assets/js/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+    <script src="https://www.louisacoffee.co/assets/js/bootstrap.min.js"></script>
+
+    <script src="https://www.louisacoffee.co/assets/js/flickr.js"></script>
+    <!-- <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>-->
+    <script src="https://www.louisacoffee.co/assets/js/froogaloop2.min.js"></script>
+    <script src="https://www.louisacoffee.co/assets/js/jquery.fitvid.min.js"></script>
+    <script src="https://www.louisacoffee.co/assets/js/flexslider.min.js"></script>
+    <script src="https://www.louisacoffee.co/assets/js/lightbox.min.js"></script>
+    <script src="https://www.louisacoffee.co/assets/js/masonry.min.js"></script>
+    <script src="https://www.louisacoffee.co/assets/js/twitterfetcher.min.js"></script>
+    <script src="https://www.louisacoffee.co/assets/js/spectragram.min.js"></script>
+    <script src="https://www.louisacoffee.co/assets/js/ytplayer.min.js"></script>
+    <script src="https://www.louisacoffee.co/assets/js/countdown.min.js"></script>
+    <script src="https://www.louisacoffee.co/assets/js/smooth-scroll.min.js"></script>
+    <script src="https://www.louisacoffee.co/assets/js/parallax.min.js"></script>
+    <script src="https://www.louisacoffee.co/assets/js/scripts.min.js"></script>
+    <!--  Google Anaanalytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-83954676-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+
+</html>
+</body>
+
+</html>

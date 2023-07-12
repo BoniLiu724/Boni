@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./_css/bootstrap.css">
+    <script src="./_js/bootstrap.bundle.js"></script>
+    <script src="./_js/jquery.js"></script>
+    <script src="./_js/masonry.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <style>
+        .item{
+            border: solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='row box'>
+        <div class='item col-xs-12 col-sm-6 col-md-4' data-masonry='{"percentPosition": true }'>
+            <div class='panel panel-default'>test<br></div>
+        </div>
+        <div class='item col-xs-12 col-sm-6 col-md-4' data-masonry='{"percentPosition": true }'>
+            <div class='panel panel-default'>test<br><br><br></div>
+        </div>
+        <div class='item col-xs-12 col-sm-6 col-md-4' data-masonry='{"percentPosition": true }'>
+            <div class='panel panel-default'>test<br><br></div>
+        </div>
+        <div class='item col-xs-12 col-sm-6 col-md-4' data-masonry='{"percentPosition": true }' style="width: 50px;">
+            <div class='panel panel-default'>test</div>
+        </div>
+        <div class='item col-xs-12 col-sm-6 col-md-4' data-masonry='{"percentPosition": true }'>
+            <div class='panel panel-default'>test</div>
+        </div>
+        <div class='item col-xs-12 col-sm-6 col-md-4' data-masonry='{"percentPosition": true }'>
+            <div class='panel panel-default'>test</div>
+        </div>
+        <div class='item col-xs-12 col-sm-6 col-md-4' data-masonry='{"percentPosition": true }'>
+            <div class='panel panel-default'>test</div>
+        </div>
+        <div class='item col-xs-12 col-sm-6 col-md-4' data-masonry='{"percentPosition": true }'>
+            <div class='panel panel-default'>test</div>
+        </div>
+        <div class='item col-xs-12 col-sm-6 col-md-4' data-masonry='{"percentPosition": true }'>
+            <div class='panel panel-default'>test</div>
+        </div>
+    </div>
+
+    <script>
+        $('.box').masonry({
+            itemSelector: 'item',
+        });
+        
+    </script>
+</body>
+
+</html>
