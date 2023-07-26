@@ -38,7 +38,8 @@
         a {
             text-decoration: none;
         }
-        .btn-brown{
+
+        .btn-brown {
             background-color: rgb(163, 96, 96);
             /* border-color: brown; */
         }
@@ -50,34 +51,46 @@
         }
 
         .wrapper {
-            min-height: calc(100% - 200px);
+            min-height: calc(100% - 104px);
             /*減去footer高度*/
         }
 
         .footer {
-            min-height: 200px;
+            min-height: 104px;
             /*設定footer本身高度*/
             /* padding: 72px; */
             background-color: bisque;
         }
-        .navColor{
-            background: linear-gradient(180deg, rgb(255, 255, 255) 90%, rgb(110, 29, 29) 100%);
-            max-height: 100%;
-            /* border-bottom: dashed black; */
+
+        .navColor {
+            /* background: linear-gradient(180deg, rgb(255, 255, 255) 90%, rgb(110, 29, 29) 100%); */
+            /* max-height: 100%; */
+            border-bottom: solid rgb(110, 29, 29);
+            border-width: 2px;
         }
-        
+
         .ttop {
             position: fixed;
             right: 0;
             bottom: 0;
             width: 100px;
             height: 50px;
-            background-image: url('./img/logo.jpg');
+            background-image: url('./img/arrow-up.png');
             background-size: contain;
             background-repeat: no-repeat;
             background-color: transparent;
         }
-        </style>
+
+        .navbar .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        /* 移除點擊下拉選單時的背景變動 */
+        .navbar .dropdown-menu .dropdown-item:focus,
+        .navbar .dropdown-menu .dropdown-item:active {
+            background-color: transparent !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -97,20 +110,21 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle color-brown" data-bs-toggle="dropdown" href="./menu.html">產品目錄</a>
+                            <a class="nav-link dropdown-toggle color-brown"
+                            href="./news.html">最新消息</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item color-brown" href="#">飲品</a></li>
-                                <li><a class="dropdown-item color-brown" href="#">餐點</a></li>
+                                <li><a class="dropdown-item color-brown" href="./news-1.html">門市資訊</a></li>
+                                <li><a class="dropdown-item color-brown" href="./news-2.html">咖啡教室</a></li>
                             </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link color-brown" href="./menu.html">產品目錄</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link color-brown" href="./map.html">門市資訊</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link color-brown" href="#">關於我們</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link color-brown" href="#">最新消息</a>
+                            <a class="nav-link color-brown" href="./aboutus.html">關於我們</a>
                         </li>
                     </ul>
                 </div>
@@ -123,8 +137,8 @@
                 <div class="text-white-50 " style="display:inline; float: right ;"><a class="bar"
                         href="index.html">Home</a>/
                     門市資訊</div>
-                </div>
             </div>
+        </div>
         <div>
             <div class="container">
                 <div class="row">
@@ -169,7 +183,7 @@
             <div class="row justify-content-center align-items-center">
 
                 <div class="col-md-4 col-sm-6 p-5">
-                    <img src="/img/logo.jpg" style="height: 100px;" alt="">
+                    <img src="/img/logo.jpg" style="height: 72px;" alt="">
                 </div>
                 <div class="col-md-4 col-sm-6 p-5">
                     <span>電話：04-2345-6789</span><br>
